@@ -1,0 +1,32 @@
+{
+  "name": "pipl",
+  "version": "0.1.0",
+  "description": "Pipl API wrapper entirely written in Node.js",
+  "main": "lib/main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ArkeologeN/pipl.git"
+  },
+  "keywords": [
+    "pipl",
+    "wrapper",
+    "api",
+    "search"
+  ],
+  "author": {
+    "name": "Hamza Waqas",
+    "email": "hamzawaqas.programmer@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkeologeN/pipl/issues"
+  },
+  "homepage": "https://github.com/ArkeologeN/pipl",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "request": "~2.31.0"
+  }
+}
