@@ -1,6 +1,6 @@
 {
   "name": "pipl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pipl API wrapper entirely written in Node.js",
   "main": "lib/main",
   "scripts": {
