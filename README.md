@@ -21,7 +21,7 @@ Supports calls as per the documentation available at: [Pipl Search API](http://d
 
 ```javascript
 
-pipl.search.query('json', {"email": "hamzawaqas@live.com"}, function(err, data) {
+pipl.search.query({"email": "hamzawaqas@somewhere.com"}, function(err, data) {
     // Here you go
 });
 ```
