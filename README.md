@@ -12,12 +12,12 @@ Just like others, it's simple and quick as per standard:
 This will install the module and add the entry in `package.json`. Lets start using it!
 
 ```javascript
-var pipl = require('pipl')('apiUrl', 'apiKey');
+var pipl = require('pipl')('apiKey');
 ```
 
-Example using v5 API url:
+Example using v5 API url (v4 is used by default):
 ```javascript
-var pipl = require('pipl')('http://api.pipl.com/search/v5/', 'apiKey');
+var pipl = require('pipl')('apiKey', 'http://api.pipl.com/search/v5/');
 ```
 
 ## Search API
