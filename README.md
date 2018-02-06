@@ -1,23 +1,28 @@
 pipl
 ==============
 
-Pipl search api wrapper written for rest api in node
+Pipl search api wrapper written for rest api in Node.
 
 ### Getting Started
 
-Just like others, its simple and quick as per standard:
+Just like others, it's simple and quick as per standard:
 
 `npm install pipl --save`
 
-this will install the module and add the entry in `package.json`. Lets start using it!
+This will install the module and add the entry in `package.json`. Lets start using it!
 
 ```javascript
-var pipl = require('pipl')('apiKey here');
+var pipl = require('pipl')('apiKey');
+```
+
+Example using v5 API url (v4 is used by default):
+```javascript
+var pipl = require('pipl')('apiKey', 'http://api.pipl.com/search/v5/');
 ```
 
 ## Search API
 
-Supports calls as per the documentation available at: [Pipl Search API](http://dev.pipl.com/docs/read/search_api/introduction).
+Supports calls as per the documentation available at: [Pipl Search API](https://docs.pipl.com/reference).
 
 ```javascript
 
