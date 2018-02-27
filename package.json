@@ -27,6 +27,6 @@
   "homepage": "https://github.com/ArkeologeN/pipl",
   "dependencies": {
     "lodash": "~2.4.1",
-    "request": "~2.31.0"
+    "request": "~2.83.0"
   }
 }
